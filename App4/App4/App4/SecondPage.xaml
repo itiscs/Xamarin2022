@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.SecondPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <ListView x:Name="lstProducts" ItemSelected="lstProducts_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>  
+                                <StackLayout Margin="10">
+                                <Label Text="{Binding Id }"/>
+
+                                <Label Text="{Binding Name }" />
+
+                                <Label Text="{Binding Description }"/>
+
+                                <Label Text="{Binding Price }" />
+                                </StackLayout>
+
+                            </ViewCell.View>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/Xamarin2022/v17
+/.vs
+/App4/.vs/App4
+/App4/App4/App4/bin/Debug/netstandard2.0
+/App4/App4/App4/obj
+/App4/App4/App4.Android/bin/Debug
+/App4/App4/App4.Android/obj
+/App4/App4/App4.UWP/bin/x86/Debug
+/App4/App4/App4.UWP/obj
