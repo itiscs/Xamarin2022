@@ -11,3 +11,10 @@
 /App4/App4/App4.Android/obj
 /App4/App4/App4.UWP/bin/x86/Debug
 /App4/App4/App4.UWP/obj
+/SqliteApp/.vs/SqliteApp/v17
+/SqliteApp/SqliteApp/SqliteApp/bin/Debug/netstandard2.0
+/SqliteApp/SqliteApp/SqliteApp/obj
+/SqliteApp/SqliteApp/SqliteApp.Android/bin/Debug
+/SqliteApp/SqliteApp/SqliteApp.Android/obj
+/SqliteApp/SqliteApp/SqliteApp.UWP/bin
+/SqliteApp/SqliteApp/SqliteApp.UWP/obj
