@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3f948e31-205a-4ab8-9274-72c0da4af3d2": {
+      "ProjectGuid": "3f948e31-205a-4ab8-9274-72c0da4af3d2",
+      "DisplayName": "SqliteApp",
+      "ColorIndex": 0
+    },
+    "7c9f8d95-8c05-48c2-8640-79b750c22423": {
+      "ProjectGuid": "7c9f8d95-8c05-48c2-8640-79b750c22423",
+      "DisplayName": "SqliteApp.UWP",
+      "ColorIndex": 1
+    },
+    "fd0e46cb-bba0-417c-9c6c-8b6ae3f95285": {
+      "ProjectGuid": "fd0e46cb-bba0-417c-9c6c-8b6ae3f95285",
+      "DisplayName": "SqliteApp.Android",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

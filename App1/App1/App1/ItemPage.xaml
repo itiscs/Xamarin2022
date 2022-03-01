@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ItemPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Товар " FontSize="Title" Margin="20" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Название" />
+            <Entry Text="{Binding Name}" />
+            <Label Text="Описание" />
+            <Editor Text="{Binding Description}"  />
+            <Label Text="Цена" />
+            <Entry Text="{Binding Price}" />
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="Save" Text="Сохранить" Clicked="Save_Clicked" />
+                <Button x:Name="Delete" Text="Удалить" Clicked="Delete_Clicked" />
+                <Button x:Name="Cancel" Text="Отмена" Clicked="Cancel_Clicked" />
+            </StackLayout>
+            <Label Text="{Binding Id}"  />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
