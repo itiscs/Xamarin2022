@@ -25,3 +25,12 @@
 /App1/App1/App1.Android/obj
 /App1/App1/App1.UWP/bin/x86/Debug
 /App1/App1/App1.UWP/obj
+/App1/.vs/App1
+/AppFiles/.vs/AppFiles/v17
+/AppFiles/AppFiles/AppFiles/bin/Debug/netstandard2.0
+/AppFiles/AppFiles/AppFiles/obj
+/AppFiles/AppFiles/AppFiles.Android/obj
+/AppFiles/AppFiles/AppFiles.UWP/bin/x86/Debug
+/AppFiles/AppFiles/AppFiles.UWP/obj
+/MasterDetalApp
+/TabbedApp
